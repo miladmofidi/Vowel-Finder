@@ -19,7 +19,7 @@ public class FindVowelsServiceImpl implements FindVowelsService
     private static final Logger logger = LoggerFactory.getLogger(FindVowelsServiceImpl.class);
 
 
-    public void findVowels(String inputtedStr)
+    public List<VowelDto> findVowels(String inputtedStr)
     {
         List<VowelDto> vowels = new ArrayList<>();
         try
@@ -59,10 +59,11 @@ public class FindVowelsServiceImpl implements FindVowelsService
                     String.format("Input: '%s' , Vowels: %s , Average of vowels: %s ", s.getWord(), s.getVowelLetters(),
                                   s.getAverage()));
         });
+        return vowels;
     }
 
 
-    private static boolean hasVowel(Character c)
+    public boolean hasVowel(Character c)
     {
         return VOWEL_CHARACTERS.contains(c);
     }

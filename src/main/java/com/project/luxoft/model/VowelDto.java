@@ -17,6 +17,13 @@ public final class VowelDto
     {
     }
 
+    public VowelDto(String word, List<Character> vowelLetters, int vowelsCounter, double average)
+    {
+        this.word = word;
+        this.vowelLetters = vowelLetters;
+        this.vowelsCounter = vowelsCounter;
+        this.average = average;
+    }
 
     public String getWord()
     {

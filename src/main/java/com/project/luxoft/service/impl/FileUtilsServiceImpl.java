@@ -37,10 +37,16 @@ public class FileUtilsServiceImpl implements FileUtilsService
         }
         catch (IOException e)
         {
+            if (logger.isDebugEnabled())
+            {
+                logger.debug(String.format("File writing failed for file: %s", FILE_NAME));
+            }
+            //can throw a custom exception to manage by consumer of service or AOP
             e.printStackTrace();
         }
         return Optional.empty();
     }
+
 
     @Override
     public Path writeFile(@NotNull Path path, @NotNull List<String> lines)
@@ -59,6 +65,11 @@ public class FileUtilsServiceImpl implements FileUtilsService
         }
         catch (IOException e)
         {
+            if (logger.isDebugEnabled())
+            {
+                logger.debug(String.format("File reading failed for file: %s", FILE_NAME));
+            }
+            //can throw a custom exception to manage by consumer of service or AOP
             e.printStackTrace();
         }
         return path;
