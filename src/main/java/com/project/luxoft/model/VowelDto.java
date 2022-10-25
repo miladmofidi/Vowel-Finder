@@ -67,7 +67,6 @@ public final class VowelDto
 
     public int counterAdder()
     {
-        //this.vowelsCounter ++;
         return vowelsCounter++;
     }
 

@@ -1,4 +1,4 @@
-package com.project.luxoft.util;
+package com.project.luxoft.service;
 
 import com.project.luxoft.service.abstraction.FileUtilsService;
 import org.slf4j.Logger;
