@@ -43,6 +43,7 @@ public class FindVowelsDemo extends FindVowelsServiceImpl implements CommandLine
     @PreDestroy
     public void preDestroy() throws IOException
     {
+        //Delete folder before bean destroy.
         FileUtils.deleteDirectory(new File(SOURCE_PATH.getParent().toUri()));
     }
 }
