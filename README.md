@@ -1,4 +1,4 @@
-# The Luxoft Vowel Finder Project
+# The Vowel Finder Project
 
 This is a simple application in order to find vowel letters and the average of vowels in the string file that contains lines(strings).
 
