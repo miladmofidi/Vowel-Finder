@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.project</groupId>
-	<artifactId>luxoft</artifactId>
+	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vowelDto-finder</name>
-	<description>Demo project to find vowelDto letters in string</description>
+	<name>vowel-finder</name>
+	<description>Demo project to find vowel letters in string</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
