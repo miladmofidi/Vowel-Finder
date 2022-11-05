@@ -1,4 +1,4 @@
-package com.project.luxoft.util.constant;
+package com.project.demo.util.constant;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

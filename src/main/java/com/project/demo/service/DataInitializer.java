@@ -1,6 +1,6 @@
-package com.project.luxoft.service;
+package com.project.demo.service;
 
-import com.project.luxoft.service.abstraction.FileUtilsService;
+import com.project.demo.service.abstraction.FileUtilsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -13,9 +13,9 @@ import java.nio.file.Files;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.project.luxoft.util.constant.AppConstants.FILE_LINES;
-import static com.project.luxoft.util.constant.AppConstants.FILE_NAME;
-import static com.project.luxoft.util.constant.AppConstants.SOURCE_PATH;
+import static com.project.demo.util.constant.AppConstants.FILE_LINES;
+import static com.project.demo.util.constant.AppConstants.FILE_NAME;
+import static com.project.demo.util.constant.AppConstants.SOURCE_PATH;
 
 @Component
 @Order(1)

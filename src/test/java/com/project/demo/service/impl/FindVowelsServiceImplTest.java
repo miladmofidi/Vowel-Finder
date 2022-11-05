@@ -1,15 +1,15 @@
-package com.project.luxoft.service.impl;
+package com.project.demo.service.impl;
 
-import com.project.luxoft.FindVowelsTest;
-import com.project.luxoft.model.VowelDto;
-import com.project.luxoft.service.abstraction.FindVowelsService;
+import com.project.demo.FindVowelsTest;
+import com.project.demo.model.VowelDto;
+import com.project.demo.service.abstraction.FindVowelsService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.project.luxoft.util.constant.AppConstants.FILE_LINES;
+import static com.project.demo.util.constant.AppConstants.FILE_LINES;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 

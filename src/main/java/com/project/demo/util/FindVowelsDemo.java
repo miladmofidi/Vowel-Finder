@@ -1,7 +1,7 @@
-package com.project.luxoft.util;
+package com.project.demo.util;
 
-import com.project.luxoft.service.abstraction.FileUtilsService;
-import com.project.luxoft.service.impl.FindVowelsServiceImpl;
+import com.project.demo.service.abstraction.FileUtilsService;
+import com.project.demo.service.impl.FindVowelsServiceImpl;
 import org.apache.commons.io.FileUtils;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-import static com.project.luxoft.util.constant.AppConstants.SOURCE_PATH;
+import static com.project.demo.util.constant.AppConstants.SOURCE_PATH;
 
 
 @Component

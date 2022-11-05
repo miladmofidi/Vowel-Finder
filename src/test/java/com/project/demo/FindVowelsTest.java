@@ -1,6 +1,6 @@
-package com.project.luxoft;
+package com.project.demo;
 
-import com.project.luxoft.model.VowelDto;
+import com.project.demo.model.VowelDto;
 
 import java.util.ArrayList;
 import java.util.Arrays;

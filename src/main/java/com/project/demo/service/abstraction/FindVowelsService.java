@@ -1,6 +1,6 @@
-package com.project.luxoft.service.abstraction;
+package com.project.demo.service.abstraction;
 
-import com.project.luxoft.model.VowelDto;
+import com.project.demo.model.VowelDto;
 
 import java.util.List;
 

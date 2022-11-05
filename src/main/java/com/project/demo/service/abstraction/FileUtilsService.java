@@ -1,4 +1,4 @@
-package com.project.luxoft.service.abstraction;
+package com.project.demo.service.abstraction;
 
 import java.nio.file.Path;
 import java.util.List;

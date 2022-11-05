@@ -1,4 +1,4 @@
-package com.project.luxoft.model;
+package com.project.demo.model;
 
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;

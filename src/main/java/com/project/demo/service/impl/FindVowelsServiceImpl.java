@@ -1,8 +1,8 @@
-package com.project.luxoft.service.impl;
+package com.project.demo.service.impl;
 
 
-import com.project.luxoft.model.VowelDto;
-import com.project.luxoft.service.abstraction.FindVowelsService;
+import com.project.demo.model.VowelDto;
+import com.project.demo.service.abstraction.FindVowelsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.project.luxoft.util.constant.AppConstants.VOWEL_CHARACTERS;
+import static com.project.demo.util.constant.AppConstants.VOWEL_CHARACTERS;
 
 
 @Service
