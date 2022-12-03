@@ -17,6 +17,12 @@ import static com.project.demo.util.constant.AppConstants.FILE_LINES;
 import static com.project.demo.util.constant.AppConstants.FILE_NAME;
 import static com.project.demo.util.constant.AppConstants.SOURCE_PATH;
 
+/**
+ *
+ * @Author <a href="mailto:milad.mofidi@gmail.com">Milad Mofidi </a>
+ *
+ */
+
 @Component
 @Order(1)
 public class DataInitializer implements CommandLineRunner
