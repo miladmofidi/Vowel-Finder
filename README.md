@@ -1,6 +1,6 @@
 # The Vowel Finder Project
 
-This is a simple application in order to find vowel letters and the average of vowels in the string file that contains lines(strings).
+This is a simple application to find vowel letters and the average vowels in the string file containing lines(strings).
 
 ## prerequisites
 JDK 1.8  
@@ -8,7 +8,7 @@ Maven
 
 ## Installation
 
-Build and run project with command line in windows:
+Build and run the project with the command line in Windows:
 
 ```bash
   cd <project-path>
