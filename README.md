@@ -1,12 +1,20 @@
-# The Vowel Finder Project
+# The Vowel Worlds Analyzer Project
 
-This is a simple application to find vowel letters and the average vowels in the string file containing lines(strings).
+## This is a simple application to get strings, find those that have vowel letters, and provide information about the word such as:
+- count of vowels.
+- the average vowels in the word.
+- list the found letters.
+- index of the vowel letter in the word.
 
-## prerequisites
+### Demo:
+![image](https://github.com/user-attachments/assets/b385f22c-f96d-41b0-8779-801542a11105)
+
+
+### prerequisites
 JDK 1.8  
 Maven
 
-## Installation
+### Installation
 
 Build and run the project with the command line in Windows:
 
@@ -16,7 +24,6 @@ Build and run the project with the command line in Windows:
   javac VowelFinderApplication.java
   java -jar VowelFinderApplication.java
 ```
-## Authors
+### Author
 
 - [@miladmofidi](https://www.github.com/miladmofidi)
-- milad.mofidi@gmail.com
